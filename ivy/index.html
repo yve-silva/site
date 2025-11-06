@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDA NA ÁGUA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #004d40;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #004d40;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #80cbc4;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 2.2em;
+        }
+
+        section {
+            margin: 30px 0;
+        }
+
+        h2 {
+            color: #00695c;
+            margin-bottom: 10px;
+            border-left: 5px solid #004d40;
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .dicas {
+            background-color: #e0f2f1;
+            border-left: 6px solid #00796b;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .imagens {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .imagens img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .imagens img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VIDA NA ÁGUA</h1>
+        <p>Descubra a importância de proteger os oceanos e suas incríveis formas de vida.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#animais">Animais Marinhos</a>
+        <a href="#cuidados">Cuidados com os Oceanos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <h1>Preserve a vida marinha — o oceano é nosso lar comum 🌊</h1>
+        </div>
+
+        <section id="sobre">
+            <h2>Sobre a Vida na Água</h2>
+            <p>Os oceanos cobrem mais de 70% da superfície da Terra e abrigam milhões de espécies de seres vivos. 
+               São fundamentais para o equilíbrio climático, fornecimento de oxigênio e sustento de comunidades humanas.</p>
+        </section>
+
+        <section id="animais">
+            <h2>Animais Marinhos</h2>
+            <p>A diversidade marinha é impressionante — desde pequenas algas até baleias gigantes. Cada espécie 
+               tem um papel essencial no ecossistema aquático.</p>
+
+            <div class="imagens">
+                <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Peixes coloridos">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Tartaruga marinha">
+                <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Golfinhos">
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Corais coloridos">
+            </div>
+        </section>
+
+        <section id="cuidados">
+            <h2>Como Cuidar dos Animais do Oceano</h2>
+            <div class="dicas">
+                <ul>
+                    <li>🚯 <strong>Evite jogar lixo no mar</strong> — o plástico causa a morte de milhares de animais todos os anos.</li>
+                    <li>🐢 <strong>Use menos plástico</strong> — prefira produtos reutilizáveis como garrafas e sacolas ecológicas.</li>
+                    <li>🐠 <strong>Não compre produtos de origem animal marinha</strong> ilegais (como conchas ou corais).</li>
+                    <li>🧴 <strong>Use protetor solar ecológico</strong> — alguns produtos químicos prejudicam os recifes de coral.</li>
+                    <li>🌍 <strong>Participe de limpezas de praia</strong> e projetos de conservação marinha.</li>
+                    <li>📚 <strong>Eduque outras pessoas</strong> sobre a importância da preservação dos oceanos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Quer saber mais ou participar de projetos de preservação? Envie uma mensagem para:</p>
+            <p><strong>Email:</strong> contato@vidanaaagua.org</p>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank">@vidanaaagua</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vida na Água. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
